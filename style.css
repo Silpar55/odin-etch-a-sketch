@@ -1,0 +1,36 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+.create {
+  display: flex;
+  justify-content: center;
+}
+
+.create button {
+  padding: 16px 32px;
+  font-size: 40px;
+  background-color: rgb(73, 73, 173);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 32px 0;
+}
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.grid-item {
+  /* Need to get the 1/16 of the with - the border and padding   */
+  /* width: calc(100% * (1 / 16) - 2em - 2px); */
+  border: 0.5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
